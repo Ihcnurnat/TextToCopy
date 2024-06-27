@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Input Fields</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: black; color: white; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh;">
+    <div id="inputFields">
+        <!-- Initial input field -->
+        <div class="input-group">
+            <input type="text" class="input-text" placeholder="Enter text...">
+            <button class="copy-button purple-button">Copy</button>
+            <button class="delete-button purple-button">X</button>
+        </div>
+    </div>
+    <button id="addButton" class="purple-button">Add Input</button>
+
+    <div class="hotkey-rules">
+        <details>
+            <summary>Hotkey Rules</summary>
+            <p>Press "Ctrl + D + number" to copy the text from line number 'number'.</p>
+        </details>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

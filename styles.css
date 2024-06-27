@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-text {
+    flex: 1;
+    padding: 10px;
+    height: 40px; /* Adjust the height of the input fields */
+    box-sizing: border-box; /* Ensures padding is included in the height */
+    font-size: 16px; /* Adjust the font size */
+}
+
+.purple-button, .delete-button {
+    background-color: blueviolet; /* Set the color to blue violet */
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer;
+    margin-left: 10px;
+    height: 40px; /* Set the height of all buttons */
+    font-size: 16px; /* Adjust the font size */
+}
+
+#addButton {
+    background-color: blueviolet; /* Set the color to blue violet */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    height: 40px; /* Set the height of the "Add Input" button */
+    font-size: 16px; /* Adjust the font size */
+}
+
+.hotkey-rules {
+    margin-top: 20px;
+}
+
+.hotkey-rules summary {
+    cursor: pointer;
+    font-weight: bold;
+}
